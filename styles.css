@@ -1,0 +1,50 @@
+
+p{
+text-align: justify;
+margin-bottom: 100px;
+
+}
+
+h1{
+    font-size: 8em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+.container{
+    max-width: 1400px;
+    margin:0 auto;
+    padding:10px;
+
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding:10px;
+}
+
+@media(min-width: 1400px){
+    .column{
+        width: 25%;
+    }
+}
+
+@media(min-width:800px)and(max-width:1800px){
+    .column{
+        width: 50%;
+    }
+}
+
+@media(max-width:800px){
+    .column{
+        width: 100%;
+    }
+
+}
+
+h1{
+    font-size: 5em;
+}
