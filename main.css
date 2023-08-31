@@ -1,11 +1,24 @@
-:root {
-  --brand: #f99;
+h1 {
+  font-size: 5em;
+}
+h1 text {
+  align: center;
 }
 
-h1 {
-  color: crimson;
-  font-size: 5em;
-  background-color: blue;
+header {
+  height: 200px;
+  background-color: #f99;
+}
+header nav.navigation {
+  text-align: center;
+  line-height: 200px;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #edf;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*this comment should remain*//*# sourceMappingURL=main.css.map */

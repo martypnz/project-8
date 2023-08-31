@@ -1,12 +1,31 @@
-:root{
-    --brand: #f99;
+$brand: #f99;
+$brand-text: #edf;
+
+h1 {
+    font-size: 5em;
+    text{
+        align:center;
+    }
 }
 
-h1{
-    color: crimson;
-    font-size: 5em;
-    background-color: blue;
+
+header{
+    height: 200px;
+    background-color: $brand;
+    nav.navigation{
+        text-align: center;
+        line-height: 200px;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $brand-text;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
+
+   
 
 /*this comment should remain*/
 //this comment will go away//
